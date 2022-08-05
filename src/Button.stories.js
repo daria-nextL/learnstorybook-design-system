@@ -77,6 +77,16 @@ export const AllButtons = (args) => (
 
 AllButtons.storyName= 'all buttons';
 
+
+export const myStory = () => <Button>Hello, World!</Button>;
+
+myStory.parameters = {
+  design: {
+    type: "figma",
+    url: "https://www.figma.com/file/Mq4p3tQDbjcsX4HBjHETd2/Storybook-Connect?node-id=14%3A7",
+  },
+};
+
 export const buttonWrapper = (args) => (
   <div>
     <ButtonWrapper>Original Button Wrapper</ButtonWrapper>
