@@ -11,3 +11,11 @@ module.exports = {
   ],
   "framework": "@storybook/react"
 }
+
+module.exports = {
+  addons: ['storybook-design-token']
+};
+
+module.exports = {
+  addons: ['storybook-addon-designs']
+};
